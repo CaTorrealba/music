@@ -1,0 +1,40 @@
+body {
+    font: 15px "Amiko", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {font-size: 14px;}
+
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+
+}
+.jumbotron {
+    background-color: #333;
+    background: #383838 url(imagenes/test.png) center bottom;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 10em;
+}
+
+/* Pie de la pagina */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3em 1em 2em;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+}
+
+
+.navbar {
+    background: transparent;
+    z-index: 9999;
+    border-radius: 0;
+    border: none;
+}
